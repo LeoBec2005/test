@@ -1,11 +1,2 @@
-﻿  ListaEnlazadaDoble.cpp
-C:\Users\ALUMNO-B303\Downloads\Project1\ListaEnlazadaDoble.cpp(115,1): error C2541: 'delete': no se pueden eliminar objetos que no sean punteros
-C:\Users\ALUMNO-B303\Downloads\Project1\ListaEnlazadaDoble.cpp(111,1): message : al compilar la función del miembro clase plantilla "void DoubleLinkedList<int>::clear(void)"
-C:\Users\ALUMNO-B303\Downloads\Project1\ListaEnlazadaDoble.cpp(159,20): message : Vea la referencia a la creación de una instancia de la función plantilla "void DoubleLinkedList<int>::clear(void)" que se está compilando
-C:\Users\ALUMNO-B303\Downloads\Project1\ListaEnlazadaDoble.cpp(148,64): message : Vea la referencia a la creación de una instancia de clase plantilla "DoubleLinkedList<int>" que se está compilando
-C:\Users\ALUMNO-B303\Downloads\Project1\ListaEnlazadaDoble.cpp(116,31): error C2659: '=': función como operando izquierdo
-C:\Users\ALUMNO-B303\Downloads\Project1\ListaEnlazadaDoble.cpp(117,1): error C3867: 'Node<T>::getPrev': sintaxis no estándar; utilice '&' para crear un puntero al miembro
-          with
-          [
-              T=int
-          ]
+﻿  main.cpp
+  Project1.vcxproj -> C:\Users\ALUMNO-B303\source\repos\Project1\x64\Debug\Project1.exe
