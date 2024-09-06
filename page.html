@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-rows: 100px [Line1] 100px [Line2] 100px [Line3] 100px [Line4];
+          grid-template-columns: 100px 100px 100px 100px;
+          grid-gap: 5px;
+        }
+        
+        .grid-item1 {
+          background: blue;
+          text-align: center;
+          border: black 5px solid;
+          grid-column: 1 / span 4;
+          grid-row: 1 / Line2; 
+        }
+.grid-item2 {
+          background: grey;
+          text-align: center;
+          border: black 5px solid;
+        }
+    </style>
+<title>Page Title</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item1">1</div>
+        <div class="grid-item2"><h1>Formulario CV</h1></div>
+        <div class="grid-item3">3</div>
+        <div class="grid-item4">4</div>
+        <div class="grid-item5"><h2>Leonardo Sebastian Becerra Reymer</h2></div>
+        <div class="grid-item6">6</div>
+      </div>
+
+
+</body>
+</html>
