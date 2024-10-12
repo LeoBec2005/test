@@ -12,7 +12,7 @@ struct Cola{
     Nodo<T>* head = nullptr;
     Nodo<T>* tail = nullptr;
     
-    void push(T v){
+void push(T v){
         Nodo<T>* new_node = new Nodo<T>;
         new_node->value = v;
         new_node->next = nullptr; 
