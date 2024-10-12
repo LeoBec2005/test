@@ -47,7 +47,6 @@ void pop() {
 };
 
 int main(){
-    cout<<"xd"<<endl;
     Cola<int> cola1;
     cola1.push(5);
     cola1.push(7);
